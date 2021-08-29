@@ -1,0 +1,58 @@
+@media screen and (max-width: 1600px) {
+  body {
+    background-color: gainsboro;
+  }
+  .section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .card-b {
+    width: 600px;
+    height: 500px;
+    border-radius: 20px;
+    margin: 50px;
+  }
+  .qty-box {
+    width: 50px;
+  }
+  .remove-btun {
+    margin-left: 30px;
+    height: 40px;
+    width: 100px;
+  }
+  .cart-summary {
+    padding: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: lightcyan;
+  }
+  .checkout-btun {
+    width: 300px;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-device-width: 900px) {
+  .card-b {
+    height: 500px;
+    padding: 40px;
+    margin: 40px;
+  }
+  .section {
+    display: inline;
+  }
+}
+@media screen and (max-width: 900px) {
+  .card-b {
+    height: 500px;
+
+    margin: 40px;
+  }
+  .section {
+    display: inline;
+  }
+  .card-img-top {
+    width: 150px;
+    height: 200px;
+  }
+}

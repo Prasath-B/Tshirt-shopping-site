@@ -1,38 +1,195 @@
-.App {
-  text-align: center;
-}
+@media screen and (max-width: 1600px) {
+  body {
+    background-color: rgb(255, 250, 240);
+  }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  .navbar {
+    background-color: rgb(255, 216, 0);
+    height: 70px;
+    color: white;
+    border-radius: 0px 0px 20px 20px;
+    padding: 10px;
+  }
+  .brand {
+    color: black;
+    font-family: "Acme", sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .cart-for-mobile {
+    visibility: hidden;
+  }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .nav-link {
+    color: black;
+    font-family: "Permanent Marker", cursive;
+    letter-spacing: 2px;
+  }
+  .nav-item-cart {
+    margin-right: 70px;
+    background-color: cornsilk;
+    border-radius: 10px;
+    color: aqua;
+  }
+
+  .cart-icon {
+    width: 50px;
+    height: 35px;
+  }
+  .cart-gif {
+    float: right;
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+  }
+  .title {
+    margin-left: 20%;
+    margin-top: 3rem;
+    display: inline-block;
+    font-family: "Rampart One", cursive;
+  }
+  .title h1 {
+    font-size: 80px;
+    color: black;
+  }
+  .card-img-top {
+    width: 350px;
+    height: 250px;
+    margin: 30px;
+    margin-left: 60px;
+    margin-bottom: 0px;
+    border-radius: 20px;
+  }
+  .card-a {
+    width: 500px;
+    height: 600px;
+    border-radius: 30px;
+    margin: 80px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    padding: 30px;
+  }
+
+  .card-a:hover {
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    top: -4px;
+    border: 1px solid #cccccc;
+    background-color: white;
+  }
+  .add-to-cart-btun:hover {
+    background-color: darkgray;
+    color: #000;
+  }
+
+  .description {
+    color: #aaaaaa;
+  }
+  .product {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .product-price {
+    font-weight: bolder;
+    font-size: 30px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-device-width: 900px) {
+  .title h1 {
+    font-size: 50px;
   }
-  to {
-    transform: rotate(360deg);
+  .navbar {
+    width: 100%;
+  }
+  .cart-for-mobile {
+    visibility: visible;
+    margin-left: 80px;
+  }
+  .cart-for-mobile:hover {
+    background-color: cornsilk;
+  }
+
+  .cart-icon-mobile {
+    width: 20px;
+    height: 25px;
+  }
+  .product {
+    display: block;
+  }
+  .card-img-top {
+    width: 200px;
+    height: 150px;
+    margin: 0px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    border-radius: 20px;
+  }
+  .card-a {
+    width: 300px;
+    height: 450px;
+    margin: 40px;
+  }
+  .card-a p {
+    font-size: 10px;
+  }
+  .card-a h5 {
+    font-size: 20px;
+  }
+  .add-to-cart-btun {
+    width: 100px;
+    height: 30px;
+  }
+  .add-to-cart-btun {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .title h1 {
+    font-size: 50px;
+  }
+  .navbar {
+    width: 100%;
+  }
+  .cart-for-mobile {
+    visibility: visible;
+    margin-left: 80px;
+  }
+  .cart-for-mobile:hover {
+    background-color: cornsilk;
+  }
+
+  .cart-icon-mobile {
+    width: 20px;
+    height: 25px;
+  }
+  .product {
+    display: block;
+  }
+  .card-img-top {
+    width: 200px;
+    height: 150px;
+    margin: 0px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    border-radius: 20px;
+  }
+  .card-a {
+    width: 300px;
+    height: 450px;
+    margin: 40px;
+  }
+  .card-a p {
+    font-size: 10px;
+  }
+  .card-a h5 {
+    font-size: 20px;
+  }
+  .add-to-cart-btun {
+    width: 100px;
+    height: 30px;
+  }
+  .add-to-cart-btun {
+    font-size: 10px;
   }
 }
